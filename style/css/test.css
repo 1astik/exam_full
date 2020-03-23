@@ -1,0 +1,560 @@
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.red:hover {
+    background-color: red !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.box-mr {
+    margin-bottom: 15px;
+}
+
+.filter {
+    display: none;
+}
+
+.header {
+    background-color: #f6f2f2;
+}
+
+.web-fluid {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/web-fluid.jpg);
+    height: 100%;
+    margin-bottom: 110px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    color: #b0afaf;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+input, textarea, button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.line {
+    border-bottom: 2px solid #ff3f40;
+    width: 140px;
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+
+.people-sm {
+    display: none;
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    max-width: 1283px;
+}
+
+.container nav {
+    padding: 0;
+    margin-bottom: 110px;
+}
+
+.container nav li {
+    line-height: 75px;
+    padding-left: 10px;
+}
+
+.container nav li a {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container nav li:hover li {
+    background-color: red;
+}
+
+.container .strong h1 {
+    font-weight: 800;
+    font-size: 3.75rem;
+    color: black;
+}
+
+.container .strong p {
+    margin-bottom: 60px;
+}
+
+.container .strong button {
+    height: 55px;
+    width: 225px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.container .strong button:hover {
+    background-color: #B20003;
+}
+
+.container .strong .video {
+    -webkit-box-shadow: 1px -4px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -4px 25px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -6px -2px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container .strong .col-5 {
+    margin-top: 15px;
+}
+
+.container .strong, .container .provide, .container .team {
+    padding-bottom: 110px;
+}
+
+.container .provide {
+    margin-top: 110px;
+}
+
+.container .provide p {
+    margin-bottom: 60px;
+}
+
+.container .provide button {
+    width: 225px;
+    height: 55px;
+    color: red;
+    background-color: white;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.container .provide button {
+    border: 1px solid red;
+}
+
+.container .provide button:hover {
+    color: white;
+    background-color: red;
+}
+
+.container .provide-box {
+    color: #494848;
+}
+
+.container .provide-box h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.container .provide-box .img-fluid {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.container .products {
+    margin-bottom: 135px;
+}
+
+.container .products h1 {
+    margin-bottom: 20px;
+}
+
+.container .products p {
+    margin-bottom: 30px;
+}
+
+.container .products .line {
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.container .products:hover .line {
+    width: 240px;
+    transition: 2s;
+}
+
+.container .products nav {
+    margin-bottom: 65px;
+}
+
+.container .products nav a {
+    color: #494848;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.container .products .big-filter nav a:hover {
+    cursor: pointer;
+}
+
+.container .products .products-box div:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.container .products .dropdown-menu a:hover {
+    cursor: pointer;
+}
+
+.container .products .filter button:hover {
+    cursor: pointer;
+}
+
+.container .products .filter {
+    margin-bottom: 15px;
+}
+
+.container .products nav a:hover {
+    text-decoration: none;
+}
+
+.container .products nav .active {
+    color: red;
+}
+
+.container .meet h1 {
+    margin-left: -12px !important;
+}
+
+.container .meet .line {
+    margin-bottom: 50px;
+}
+
+.container .meet:hover .line {
+    width: 240px;
+    transition: 2s;
+}
+
+.container .meet h3 {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.container .meet .img-thumbnail {
+    border-radius: 0 !important;
+}
+
+.container .meet .social {
+    margin-top: 45px;
+    margin-bottom: 6%;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.container .meet .social a {
+    color: #494848;
+}
+
+.container .meet .thumbnail figure {
+    position: relative;
+}
+
+.container .meet .post-content {
+    bottom: 0;
+    position: absolute;
+    background-color: #7a786e;
+    color: white;
+    display: none;
+    padding: 0;
+    width: 100%;
+}
+
+.container .meet .thumbnail:hover .post-content {
+    display: block;
+}
+
+.container .meet .thumbnail .pro {
+    padding: 0 !important;
+}
+
+.container .test .col-3 {
+    padding-left: 0;
+}
+
+.container .email-form {
+    color: white;
+}
+
+.container .email-form .mb {
+    margin-bottom: 50px;
+}
+
+.container .email-form h1 {
+    text-transform: none;
+    margin-top: 140px;
+    color: white;
+}
+
+.container .email-form p {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #cacaca;
+}
+
+.container .email-form input {
+    width: 520px;
+    height: 75px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.container .email-form button {
+    height: 75px;
+    width: 215px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.container .email {
+    margin-bottom: 140px;
+}
+
+.container .touch:hover .line {
+    width: 240px;
+    transition: 2s;
+}
+
+.container .touch-form input {
+    width: 100%;
+    height: 65px;
+    background-color: #e5e5e5;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+.container .touch-form textarea {
+    width: 100%;
+    height: 245px;
+    background-color: #e5e5e5;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 45px;
+    resize: none;
+}
+
+.container .touch-form button {
+    height: 75px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.container .touch-form {
+    margin-bottom: 110px;
+}
+
+.container .contacts {
+    padding-left: 70px;
+}
+
+.container .contacts-text {
+    background-color: #333333;
+    color: white;
+    padding: 115px 0 0 0;
+    list-style: none;
+}
+
+.container .contacts-text li {
+    padding-bottom: 30px;
+}
+
+.container .contacts-text::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: #333333;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -1000%;
+    z-index: -1;
+    height: 81.5%;
+}
+
+.container .contacts-text span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .container .meet .social {
+        margin-bottom: 11%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container .strong h1 {
+        font-size: 3rem;
+    }
+
+    .container nav {
+        margin-bottom: 40px;
+    }
+
+    .container .provide {
+        padding-bottom: 50px;
+    }
+
+    .container .provide .provide-text {
+        margin-bottom: 50px;
+    }
+
+    .products nav a {
+        display: none;
+    }
+
+    .filter {
+        display: block;
+    }
+
+    .container .products .line {
+        margin-bottom: 20px;
+    }
+
+    .container .products nav {
+        margin-bottom: 10px;
+    }
+
+    .container .meet h3 {
+        margin-bottom: 10px;
+    }
+
+    .container .meet .social {
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+
+    .container .people {
+        display: none;
+    }
+
+    .people-sm {
+        display: flex;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .container .meet .team {
+        margin-bottom: 20px;
+        padding-bottom: 0;
+    }
+
+    .container .meet .team .team-photo {
+        height: 290px;
+    }
+
+    .container .email-form input {
+        width: 410px;
+    }
+
+    .container .email-form button {
+        width: 200px;
+    }
+
+    .container .contacts {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container .strong .strong-text {
+        margin-bottom: 40px;
+    }
+
+    .people-sm {
+        margin-bottom: 50px;
+    }
+
+    .people-sm .thumbnail {
+        margin-bottom: 10px;
+    }
+
+    .container .meet .social a {
+        font-size: 0.9rem;
+    }
+
+    .container .meet .team {
+        padding-bottom: 20px;
+    }
+
+    .container .email-form input {
+        margin-bottom: 15px;
+    }
+
+    .container .email-form h1 {
+        margin-top: 60px;
+    }
+
+    .container .email-form p {
+        margin: 30px 0;
+    }
+
+    .container .email-form .email {
+        margin-bottom: 70px;
+    }
+
+    .container .touch-form {
+        margin-bottom: 15px;
+    }
+
+    .container .contacts-text {
+        padding-top: 30px;
+    }
+
+    .container .contacts-text li {
+        padding-bottom: 10px;
+    }
+
+    .container .contacts-text::after {
+        left: -1000%;
+        height: 94%;
+    }
+
+    .container .contacts {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container p {
+        font-size: 1rem;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container .strong h1 {
+        font-size: 2.5rem;
+    }
+
+    .container .meet .social a {
+        font-size: 0.55rem;
+    }
+
+    .container .email-form input {
+        width: 300px;
+    }
+
+    .container .touch-form input, textarea {
+        margin-bottom: 30px;
+    }
+}
